@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.maven.wagon:wagon-http:shaded:2.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-http/2.3/wagon-http-2.3-shaded.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-http/2.3/wagon-http-2.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-http/2.3/wagon-http-2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

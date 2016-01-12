@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: hudson.plugins.depgraph_view.model.graph.GraphCalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.063 sec

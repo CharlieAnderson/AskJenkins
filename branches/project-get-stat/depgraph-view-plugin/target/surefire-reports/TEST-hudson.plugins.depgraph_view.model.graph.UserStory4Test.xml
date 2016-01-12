@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="8.15" errors="1" skipped="0" tests="3" name="hudson.plugins.depgraph_view.model.graph.UserStory4Test">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="24.51-b03"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/charlesanderson/AskJenkins/branches/project-get-stat/depgraph-view-plugin"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/charlesanderson/AskJenkins/branches/project-get-stat/depgraph-view-plugin"/>
+    <property name="java.runtime.version" value="1.7.0_51-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/pf/d3qnvrr57jj7qgh6d0fp5szw0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.3/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/charlesanderson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11"/>
+    <property name="user.home" value="/Users/charlesanderson"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="charlesanderson"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.3/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_51"/>
+    <property name="java.ext.dirs" value="/Users/charlesanderson/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.3/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="5.76" classname="hudson.plugins.depgraph_view.model.graph.UserStory4Test" name="testWebAppStats">
+    <error message="404 Not Found for http://localhost:59145/plugin/jquery-ui/js/jquery-ui-1.8.9.custom.min.js" type="com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException">com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException: 404 Not Found for http://localhost:59145/plugin/jquery-ui/js/jquery-ui-1.8.9.custom.min.js
+	at com.gargoylesoftware.htmlunit.WebClient.throwFailingHttpStatusCodeExceptionIfNecessary(WebClient.java:549)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.loadJavaScriptFromUrl(HtmlPage.java:998)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.loadExternalJavaScriptFile(HtmlPage.java:953)
+	at com.gargoylesoftware.htmlunit.html.HtmlScript.executeScriptIfNeeded(HtmlScript.java:359)
+	at com.gargoylesoftware.htmlunit.html.HtmlScript$1.execute(HtmlScript.java:223)
+	at com.gargoylesoftware.htmlunit.html.HtmlScript.onAllChildrenAddedToPage(HtmlScript.java:238)
+	at com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.endElement(HTMLParser.java:699)
+	at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.endElement(HTMLParser.java:657)
+	at org.cyberneko.html.HTMLTagBalancer.callEndElement(HTMLTagBalancer.java:1132)
+	at org.cyberneko.html.HTMLTagBalancer.endElement(HTMLTagBalancer.java:1034)
+	at org.cyberneko.html.filters.DefaultFilter.endElement(DefaultFilter.java:206)
+	at org.cyberneko.html.filters.NamespaceBinder.endElement(NamespaceBinder.java:329)
+	at org.cyberneko.html.HTMLScanner$ContentScanner.scanEndElement(HTMLScanner.java:3058)
+	at org.cyberneko.html.HTMLScanner$ContentScanner.scan(HTMLScanner.java:1994)
+	at org.cyberneko.html.HTMLScanner.scanDocument(HTMLScanner.java:907)
+	at org.cyberneko.html.HTMLConfiguration.parse(HTMLConfiguration.java:499)
+	at org.cyberneko.html.HTMLConfiguration.parse(HTMLConfiguration.java:452)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.parse(HTMLParser.java:901)
+	at com.gargoylesoftware.htmlunit.html.HTMLParser.parse(HTMLParser.java:350)
+	at com.gargoylesoftware.htmlunit.html.HTMLParser.parseHtml(HTMLParser.java:304)
+	at com.gargoylesoftware.htmlunit.DefaultPageCreator.createHtmlPage(DefaultPageCreator.java:134)
+	at com.gargoylesoftware.htmlunit.DefaultPageCreator.createPage(DefaultPageCreator.java:101)
+	at org.jvnet.hudson.test.HudsonPageCreator.createPage(HudsonPageCreator.java:46)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:449)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:332)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:389)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:374)
+	at org.jvnet.hudson.test.JenkinsRule$WebClient.goTo(JenkinsRule.java:1907)
+	at org.jvnet.hudson.test.JenkinsRule$WebClient.goTo(JenkinsRule.java:1898)
+	at hudson.plugins.depgraph_view.model.graph.UserStory4Test.testWebAppStats(UserStory4Test.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.jvnet.hudson.test.JenkinsRule$2.evaluate(JenkinsRule.java:482)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:18)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</error>
+    <system-out>=== Starting testWebAppStats(hudson.plugins.depgraph_view.model.graph.UserStory4Test)
+</system-out>
+    <system-err>Nov 04, 2015 4:53:40 PM org.mortbay.log.Slf4jLog info
+INFO: jetty-6.1.26
+Nov 04, 2015 4:53:40 PM org.mortbay.log.Slf4jLog info
+INFO: NO JSP Support for , did not find org.apache.jasper.servlet.JspServlet
+Nov 04, 2015 4:53:40 PM org.mortbay.log.Slf4jLog info
+INFO: Started SocketConnector@0.0.0.0:59145
+Nov 04, 2015 4:53:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Nov 04, 2015 4:53:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Nov 04, 2015 4:53:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Nov 04, 2015 4:53:41 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Nov 04, 2015 4:53:41 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Nov 04, 2015 4:53:41 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Nov 04, 2015 4:53:41 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Nov 04, 2015 4:53:41 PM hudson.TcpSlaveAgentListener &lt;init&gt;
+INFO: JNLP slave agent listener started on TCP port 59146
+Nov 04, 2015 4:53:41 PM hudson.UDPBroadcastThread run
+WARNING: UDP handling problem
+java.net.SocketException: Can&apos;t assign requested address
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:178)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:319)
+	at hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:73)
+
+Nov 04, 2015 4:53:44 PM com.gargoylesoftware.htmlunit.javascript.host.Document jsxFunction_createElement
+SEVERE: Unexpected exception occurred while parsing HTML snippet
+Nov 04, 2015 4:53:44 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[Unexpected exception occurred while parsing HTML snippet: input name=&quot;x&quot;] sourceName=[http://localhost:59145/static/c068199b/scripts/prototype.js] line=[1927] lineSource=[null] lineOffset=[0]
+Nov 04, 2015 4:53:45 PM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
+INFO: statusCode=[404] contentType=[text/html]
+Nov 04, 2015 4:53:45 PM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
+INFO: &lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=ISO-8859-1&quot;/&gt;
+&lt;title&gt;Error 404 NOT_FOUND&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;&lt;h2&gt;HTTP ERROR 404&lt;/h2&gt;
+&lt;p&gt;Problem accessing /plugin/jquery-ui/js/jquery-ui-1.8.9.custom.min.js. Reason:
+&lt;pre&gt;    NOT_FOUND&lt;/pre&gt;&lt;/p&gt;&lt;hr /&gt;&lt;i&gt;&lt;small&gt;Powered by Jetty://&lt;/small&gt;&lt;/i&gt;&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+&lt;br/&gt;                                                
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+&quot;1804775408@qtp-538490295-0&quot; Id=38 Group=main TIMED_WAITING on org.mortbay.thread.QueuedThreadPool$PoolThread@6b92aff0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on org.mortbay.thread.QueuedThreadPool$PoolThread@6b92aff0
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:626)
+
+
+&quot;565862837@qtp-538490295-1 - Acceptor0 SocketConnector@0.0.0.0:59140&quot; Id=39 Group=main RUNNABLE (in native)
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:398)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:530)
+	at java.net.ServerSocket.accept(ServerSocket.java:498)
+	at org.mortbay.jetty.bio.SocketConnector.accept(SocketConnector.java:99)
+	at org.mortbay.jetty.AbstractConnector$Acceptor.run(AbstractConnector.java:708)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+
+
+&quot;AWT-AppKit&quot; Id=13 Group=main RUNNABLE (in native)
+
+
+&quot;Executing testWebAppStats(hudson.plugins.depgraph_view.model.graph.UserStory4Test)&quot; Id=1 Group=main RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:446)
+	at hudson.Functions.getThreadInfos(Functions.java:908)
+	at org.jvnet.hudson.test.JenkinsRule$2.evaluate(JenkinsRule.java:491)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:18)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+
+
+&quot;Executor #0 for master&quot; Id=111 Group=main WAITING on hudson.model.Queue@10e3ff89
+	at java.lang.Object.wait(Native Method)
+	-  waiting on hudson.model.Queue@10e3ff89
+	at java.lang.Object.wait(Object.java:503)
+	at hudson.util.OneShotEvent.block(OneShotEvent.java:72)
+	at hudson.model.Queue.pop(Queue.java:875)
+	at hudson.model.Executor.grabJob(Executor.java:284)
+	at hudson.model.Executor.run(Executor.java:205)
+
+
+&quot;Executor #1 for master&quot; Id=112 Group=main WAITING on hudson.model.Queue@10e3ff89
+	at java.lang.Object.wait(Native Method)
+	-  waiting on hudson.model.Queue@10e3ff89
+	at java.lang.Object.wait(Object.java:503)
+	at hudson.util.OneShotEvent.block(OneShotEvent.java:72)
+	at hudson.model.Queue.pop(Queue.java:875)
+	at hudson.model.Executor.grabJob(Executor.java:284)
+	at hudson.model.Executor.run(Executor.java:205)
+
+
+&quot;Jenkins cron thread&quot; Id=92 Group=main TIMED_WAITING on java.util.TaskQueue@689d8408
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@689d8408
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+&quot;Jetty Thread Pool&quot; Id=115 Group=main RUNNABLE (in native)
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.mortbay.io.ByteArrayBuffer.readFrom(ByteArrayBuffer.java:382)
+	at org.mortbay.io.bio.StreamEndPoint.fill(StreamEndPoint.java:114)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.fill(SocketConnector.java:198)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:290)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@1e6923ba
+
+
+&quot;Jetty Thread Pool - Acceptor0 SocketConnector@0.0.0.0:59145&quot; Id=91 Group=main RUNNABLE (in native)
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:398)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:530)
+	at java.net.ServerSocket.accept(ServerSocket.java:498)
+	at org.mortbay.jetty.bio.SocketConnector.accept(SocketConnector.java:99)
+	at org.mortbay.jetty.AbstractConnector$Acceptor.run(AbstractConnector.java:708)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@1e163e2
+
+
+&quot;MultiThreadedHttpConnectionManager cleanup&quot; Id=114 Group=main WAITING on java.lang.ref.ReferenceQueue$Lock@7a7fa6be
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@7a7fa6be
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:135)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$ReferenceQueueThread.run(MultiThreadedHttpConnectionManager.java:1122)
+
+
+&quot;pool-11-thread-1&quot; Id=65 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@32fe8c46
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@32fe8c46
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1079)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+&quot;pool-16-thread-1&quot; Id=89 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@18a5e38e
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@18a5e38e
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1079)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+&quot;pool-21-thread-1&quot; Id=113 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@529c42c6
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@529c42c6
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+&quot;pool-3-thread-1&quot; Id=122 Group=main TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@2be5c74d
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@2be5c74d
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:359)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:942)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+&quot;pool-6-thread-1&quot; Id=37 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@56a3147c
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@56a3147c
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1079)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+&quot;TCP slave agent listener port=0&quot; Id=109 Group=main RUNNABLE (in native)
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:398)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:530)
+	at java.net.ServerSocket.accept(ServerSocket.java:498)
+	at hudson.TcpSlaveAgentListener.run(TcpSlaveAgentListener.java:91)
+
+
+&quot;Timer-1&quot; Id=40 Group=main TIMED_WAITING on java.util.TaskQueue@65ab61d1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@65ab61d1
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+&quot;Timer-4&quot; Id=90 Group=main TIMED_WAITING on java.util.TaskQueue@3d475ee0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@3d475ee0
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+&quot;Finalizer&quot; Id=3 Group=system WAITING on java.lang.ref.ReferenceQueue$Lock@6d37c3d6
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@6d37c3d6
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:135)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:189)
+
+
+&quot;process reaper&quot; Id=12 Group=system TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c960553
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c960553
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:359)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:942)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+&quot;Reference Handler&quot; Id=2 Group=system WAITING on java.lang.ref.Reference$Lock@681a4e9e
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@681a4e9e
+	at java.lang.Object.wait(Object.java:503)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:133)
+
+
+&quot;Signal Dispatcher&quot; Id=4 Group=system RUNNABLE
+
+
+Nov 04, 2015 4:53:46 PM org.mortbay.log.Slf4jLog info
+INFO: Stopped SocketConnector@0.0.0.0:59145
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping mailer
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping external-monitor-job
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping ldap
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping pam-auth
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping ant
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping javadoc
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping maven-plugin
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping copyartifact
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping cvs
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping jquery
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping jquery-ui
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping subversion
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping parameterized-trigger
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping ssh-slaves
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping translation
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping ui-samples-plugin
+Nov 04, 2015 4:53:46 PM hudson.PluginWrapper stop
+INFO: Stopping depgraph-view
+</system-err>
+  </testcase>
+  <testcase time="1.036" classname="hudson.plugins.depgraph_view.model.graph.UserStory4Test" name="testEmptyProjectNodeStatistic"/>
+  <testcase time="1.351" classname="hudson.plugins.depgraph_view.model.graph.UserStory4Test" name="testaddbuildStatus"/>
+</testsuite>
